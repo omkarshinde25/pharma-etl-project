@@ -53,7 +53,7 @@ The Power BI report provides insights into:
 
 ## How to Use
 1. Clone the repository:
-   git clone https://github.com/your-username/pharma-etl-project.git
+   git clone https://github.com/omkarshinde25/pharma-etl-project/tree/main
 2. Open Pharma ETL Internal.pbix in Power BI Desktop  
 3. Review the applied transformations and visuals  
 4. Use the PDF file for practice with SQL/Python  
