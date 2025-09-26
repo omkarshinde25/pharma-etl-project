@@ -1,14 +1,23 @@
 # Pharma ETL and Data Cleaning Project
 
 This project demonstrates data cleaning, correction, transformation, and visualization of a Pharmaceutical Products Dataset.  
-The work is implemented in Power BI with ETL concepts, and tasks are based on practical data analyst exercises.
+The implementation is done using Power BI with ETL concepts, simulating practical data analyst and BI developer workflows.
+
+---
+
+## Project Preview
+![Pharma ETL Power BI](Screenshot%202025-09-26%20200632.png)
+
+---
 
 ## Project Structure
-Pharma-ETL-Project/
-│── Pharma ETL Internal.pbix   # Power BI dashboard and transformations
-│── pharma_data_cleaning_transformation_questions.pdf  # Practice questions
-│── data/                      # (Optional) Raw and cleaned datasets
-│── README.md                  # Project documentation
+Pharma-ETL-Project/  
+│── Pharma ETL Internal.pbix   - Power BI dashboard and ETL transformations  
+│── pharma_data_cleaning_transformation_questions.pdf   - Practice-based tasks  
+│── data/   - Raw and cleaned datasets (optional)  
+│── README.md   - Project documentation  
+
+---
 
 ## Data Cleaning and Transformation Tasks
 1. Remove duplicate rows based on Product_ID  
@@ -20,47 +29,49 @@ Pharma-ETL-Project/
 7. Replace outlier Unit_Price (>400) with category average  
 8. Correct inconsistent Form entries  
 9. Mark products as Expired or Valid  
-10. Group by Category → Average Unit_Price  
+10. Group by Category and calculate Average Unit_Price  
 11. Fix inconsistent country names  
 12. Normalize Popularity_% between 0–100  
-13. Calculate Remaining_Shelf_Life (days)  
+13. Calculate Remaining_Shelf_Life in days  
 14. Extract Yearly Sales from Order_Date  
-15. Categorize products: High Demand (>70%) / Low Demand  
-16. Correct negative or zero Quantity  
+15. Categorize products as High Demand (>70%) or Low Demand  
+16. Correct negative or zero Quantity values  
 17. Merge supplier details with Supplier_Country  
 18. Pivot Form as columns with Quantity values  
-19. Unpivot for Power BI modeling  
-20. Create Revenue_Category → Low (<5000), Medium (5000–20000), High (>20000)  
+19. Unpivot for Power BI star-schema modeling  
+20. Create Revenue_Category as Low (<5000), Medium (5000–20000), High (>20000)  
+
+---
 
 ## Features
 - End-to-end ETL pipeline simulation  
-- Cleaning and standardization (duplicates, nulls, outliers)  
-- Transformation for effective Power BI modeling  
-- Visualization-ready dataset for dashboards  
+- Data cleaning and standardization including duplicates, nulls, and outliers  
+- Transformation-ready dataset for BI reporting  
+- Interactive Power BI dashboards with insights  
+
+---
 
 ## Tools and Technologies
-- Power BI (ETL and Visualization)  
-- SQL/Python (conceptual ETL logic)  
-- Excel/CSV (dataset source)  
+- Power BI for ETL and Visualization  
+- SQL and Python for conceptual ETL logic  
+- Excel or CSV as raw data source  
 
-## Power BI Dashboard
-The Power BI report provides insights into:  
-- Sales trends  
-- Demand categories  
-- Supplier and country distribution  
-- Expired vs valid products  
-- Revenue categorization  
+---
+
+## Power BI Dashboard Highlights
+- Sales trends across categories  
+- High vs Low demand products  
+- Supplier and manufacturing country distribution  
+- Expired vs valid product tracking  
+- Revenue segmentation (Low, Medium, High)  
+
+---
 
 ## How to Use
-1. Clone the repository:
-   git clone https://github.com/omkarshinde25/pharma-etl-project/tree/main
+1. Clone this repository  
+   git clone https://github.com/omkarshinde25/pharma-etl-project.git  
 2. Open Pharma ETL Internal.pbix in Power BI Desktop  
-3. Review the applied transformations and visuals  
-4. Use the PDF file for practice with SQL/Python  
+3. Explore the applied ETL transformations and dashboards  
+4. Use the practice questions PDF to replicate tasks in SQL or Python  
 
-## Author
-Omkar Shinde – Data Analyst / BI Developer  
-LinkedIn: https://www.linkedin.com/in/omkarshinde25  
-GitHub: https://github.com/omkarshinde25  
-
-
+---
