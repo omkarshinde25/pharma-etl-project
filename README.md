@@ -12,9 +12,9 @@ The implementation is done using Power BI with ETL concepts, simulating practica
 
 ## Project Structure
 Pharma-ETL-Project/  
-│── Pharma ETL Internal.pbix   - Power BI dashboard and ETL transformations  
+│── Pharma ETL Internal.pbix   - Power BI ETL transformations  
 │── pharma_data_cleaning_transformation_questions.pdf   - Practice-based tasks  
-│── data/   - Raw and cleaned datasets (optional)  
+│── data/   - Raw and cleaned datasets
 │── README.md   - Project documentation  
 
 ---
